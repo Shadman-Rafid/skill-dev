@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SkillDev</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="container">
+        <!-- nav start -->
+        <nav class="navbar navbar-expand-lg navbar-light mb-5 mt-5">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><span class="text-danger">Skill</span><span class="text-success">Dev</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item me-5">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link" href="#">Deals</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link" href="#">Success</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link" href="#">Instructors</a>
+                  </li> 
+                </ul>
+                <ul class="navbar-nav ms-auto ">
+                    <!-- <button class="btn btn-outline-primary " type="submit"><strong>Register</strong></button> -->
+                        <!-- Button trigger modal -->
+                        <button type="submit" class="btn btn-outline-primary mx-auto px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <b>Register</b>
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Registration Form</h1>
+                                        <button type="button" class="btn-close"data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" placeholder="Username" id="floatingTextarea"></textarea>
+                                            <label for="floatingTextarea">Username</label>
+                                          </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                            <label for="floatingInput">Email address</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                              <option selected>We are offering...</option>
+                                              <option value="1">Fullstack Web Development</option>
+                                              <option value="2">Javascript Basic to Advance</option>
+                                              <option value="3">UI/UX Design</option>
+                                              <option value="4">Motion Graphics</option>
+                                              <option value="5">Digital Marketing</option>
+                                              <option value="6">Basic Rules of Photography</option>
+                                            </select>
+                                            <label for="floatingSelect">Choose your suitable course</label>
+                                          </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+              </div>
+              
+            </div>
+            
+          </nav>
+          <!-- NAV END -->
+          <!-- slider start -->
+          <section>
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/rsz_keyboard-mouse.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Welcome to Skill Dev</h5>
+                            <p>In Skill-Dev, you can participate in the industry-standard training programs offered by the top ICT associations and institutions of the country.</p>
+                            <p><a href="#" class="btn btn-primary text-white mt-3 px-4"><b>Get Started</b></a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/rsz_laptop-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Enroll a course now</h5>
+                            <p>Skill-Dev allows easy verification of the certificates allowing the organizations to evaluate the skills and abilities of the candidates in the most cost efficient and effective way.</p>
+                            <p><a href="#" class="btn btn-primary text-white mt-3 px-4"><b>Get Started</b></a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/rsz_laptop-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Get your expected job!</h5>
+                            <p>Skill-Dev aims to help assessing skills of professionals as per industry standard, thus making hiring for ICT Companies, simplified!</p>
+                            <p><a href="#" class="btn btn-primary text-white mt-3 px-4"><b>Get Started</b></a></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+          </section>
+          <!-- slider end -->  
+    </header>
+    <main>
+        <!-- course container section start -->
+        <section>
+            <div class="container text-center mb-4 pb-5">
+                <div class="container-head mt-5 mx-lg-5 p-5">
+                    <h2 class="mb-4"><strong>Discover Our Popular Courses</strong></h2>
+                    <p class="mx-lg-5 px-lg-5">Skill Dev will help assessing skills of professionals as per industry standard.Participate in the industry-standard training programs offered by the top ICT associations and institutions of the country.</p>
+                </div>
+                <div class="row align-items-start row-cols-lg-2 row-cols-md-1 row-cols-1 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <img src="images/courses/Full-Stack-Web-Development.jpg" class="card-img-top" height="100%" width="100%" alt="...">
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-start mt-3">Fullstack Web Development</h5>
+                                        <p class="card-text text-start">Become a fullstack web developer (and get a job) by taking this ONE course, even if you've never coded before.</p>
+                                        <p class="text-primary text-start"><b>Price: 100$</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <img src="images/courses/javascript.jpg" class="card-img-top" height="100%" width="100%" alt="...">
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-start mt-3">Javascript Basic to Advance</h5>
+                                        <p class="card-text text-start">A perfect JavaScript course for all those who want to learn and master JavaScript programming skills right from scratch.</p>
+                                        <p class="text-primary text-start"><b>Price: 60$</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <img src="images/courses/ux-ui-new.png" class="card-img-top" height="100%" width="100%" alt="...">
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-start mt-3">Fundamental of UI/UX Design</h5>
+                                        <p class="card-text text-start">Learn how to apply User Experience (UX) principles to your website designs, code a variety of sites, and increase sales!</p>
+                                        <p class="text-primary text-start"><b>Price: 70$</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <img src="images/courses/Motion-Graphics.png" class="card-img-top" height="100%" width="100%" alt="...">
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-start mt-3">Motion Graphics</h5>
+                                        <p class="card-text text-start">If you’re interested in creating motion graphics for an upcoming presentation on data analysis, Skill-Dev has top-rated courses to help you achieve your goals.</p>
+                                        <p class="text-primary text-start"><b>Price: 60$</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <img src="images/courses/digital_marketing.jpg" class="card-img-top" height="100%" width="100%" alt="...">
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-start mt-3">Digital Marketing</h5>
+                                        <p class="card-text text-start">Master Digital Marketing Strategy, Social Media Marketing, SEO, YouTube, Email, Facebook Marketing, Analytics & More!</p>
+                                        <p class="text-primary text-start"><b>Price: 50$</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <img src="images/courses/photography.jpg" class="card-img-top" height="100%" width="100%" alt="...">
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-start mt-3">Basic Rules of Photography</h5>
+                                        <p class="card-text text-start">A Quick Photography Course. Learn aperture, shutter speed, ISO and composition rules in this quick photography course.</p>
+                                        <p class="text-primary text-start"><b>Price: 50$</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <p class="pt-3"><a href="#" class="btn btn-primary text-white mt-3 px-4"><b>See more courses</b></a></p>
+            </div>
+        </section>
+        <!-- Explore SkillDev section start -->
+        <section class="explore">
+            <div class="container my-5 pb-5">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-12 g-0">
+                        <img src="images/man-2.jpg" class="card-img-top" height="100%" width="100%" alt="...">
+                    </div>
+                    <div class="col px-5">
+                        <div class="card-body mx-4">
+                            <h2 class="card-title text-start mt-5 pt-5 pb-lg-4 "><strong>Explore Country's One Of The Toppest<br> Online Institute</strong></h2>
+                            <p class="card-text text-start pt-3">SkillDev is an online training platform developed by the Leveraging ICT for Employment and Growth of the IT-ITES Industry (LICT) Project. The platform aims to help graduates and young professionals learn new skills, tools and technologies that have a very high industry demand, assess their skills, get certified and become job-ready. The platform offers learning opportunities and skills certification that are required for the employment in the local ICT industry.</p>
+                            <p class="pt-lg-4">SkillDev helps the ICT organizations to build the workforce for a digital economy. The platform allows easy verification of the certificates enabling the organizations to evaluate the skills and abilities of the candidates in the most cost efficient and effective way.</p>
+                            <div class="row row-cols-md-2 row-cols-sm-2 row-cols-lg-3 row-cols-2 pt-3">
+                                <div class="col">
+                                    <h2><strong>20+</strong></h2>
+                                    <p>Online Courses</p>
+                                </div>
+                                <div class="col">
+                                    <h2><strong>100+</strong></h2>
+                                    <p>Expert Instructors</p>
+                                </div>
+                                <div class="col">
+                                    <h2><strong>1.6K+</strong></h2>
+                                    <p>Students</p>
+                                </div>
+                            </div>
+                            <p class="pt-3 mb-5"><a href="#" class="btn btn-primary text-white mt-lg-3 px-4"><b>Read More</b></a></p>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </section>
+        <!-- Register Now section start -->
+        <section>
+            <div class="container bg-primary my-5 pt-4 pb-5 px-5 text-lg-start text-center">
+                <div class="row mt-5 px-4 row-cols-md-1">
+                    <div class="col-md-6 text-white px-5">
+                        <h3>Ready to join?</h3>
+                        <p>Let's start your skill development process today. To enroll a course, please click on "Register Now" button.</p>
+                    </div>
+                    <div class="col-md-3 offset-md-3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light text-primary py-lg-3 ms-lg-5 mt-lg-3 my-md-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <b class="px-lg-4 mt-lg-3">Register Now</b>
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Registration Form</h1>
+                                        <button type="button" class="btn-close"data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" placeholder="Username" id="floatingTextarea"></textarea>
+                                            <label for="floatingTextarea">Username</label>
+                                          </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                            <label for="floatingInput">Email address</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                              <option selected>We are offering...</option>
+                                              <option value="1">Fullstack Web Development</option>
+                                              <option value="2">Javascript Basic to Advance</option>
+                                              <option value="3">UI/UX Design</option>
+                                              <option value="4">Motion Graphics</option>
+                                              <option value="5">Digital Marketing</option>
+                                              <option value="6">Basic Rules of Photography</option>
+                                            </select>
+                                            <label for="floatingSelect">Choose your suitable course</label>
+                                          </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <!-- Students Section start -->
+        <section>
+            <div class="container text-center text-md-start">
+                <div class="container-head my-5 pt-5">
+                    <h2 class="pb-3"><strong>Meet Our Successful <br>Students</strong></h2>
+                    <p>Here are some students details who got appointed in different IT farms and <br> successfully contributing in their respective fields.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/students/stu-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Abu Ubaidah</h5>
+                          <p class="card-text">UI/UX Designer</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/students/stu-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Miftahul Jannat</h5>
+                          <p class="card-text">Graphics Designer</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/students/stu-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Khalid Abdullah</h5>
+                          <p class="card-text">Web Developer</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/students/stu-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nusaiba Binte Ka'ab</h5>
+                          <p class="card-text">Motion Designer</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <p class="pt-3 text-center"><a href="#" class="btn btn-primary text-white mt-3 px-4"><b>View All</b></a></p>
+            </div>
+        </section>
+        <!-- Frequently asked question start -->
+        <section>
+            <div class="container text-center mb-5">
+                <div class="container-head my-5 pt-5">
+                    <h2 class="pb-3"><strong>Frequently Asked Questions</strong></h2>
+                    <p>New learners have lots of questions about different courses which we are offering. <br> Here are some answers of the most common FAQ's.</p>
+                </div>
+                <div class="accordion mx-lg-5 px-lg-5 pb-3" id="accordionExample">
+                    <div class="accordion-item mb-4">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <b>What is a semantic tag in HTML?</b>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            Semantic HTML tags are tags that define the meaning of the content they contain. For example, tags like <code>< header></code>, <code>< article></code>, and <code>< footer></code> are semantic HTML tags. They clearly indicate the role of the content they contain. On the other hand, tags like <code>< div></code> and <code>< span></code> are typical examples of non-semantic HTML elements.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-4">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                          <b>What are the differences between CSS Grid and Flexbox?</b>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            <Strong><u>Grid:</u></Strong> CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning. Like tables, grid layout allow us to align elements into columns and rows. <br>
+                            To get started you have to define a container element as a grid with <code>display: grid;</code> set the column and row sizes with <code>grid-template-columns</code> and <code>grid-template-rows</code>, and then place its child elements into the grid with <code>grid-column</code> and <code>grid-row</code>. <br>
+                            <strong><u>Flexbox:</u></strong> The CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container (made of grids). It works with all kinds of display devices and screen sizes. <br>
+                            To get started you have to define a container element as a grid with <code>display: flex;</code>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-4">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <b>What are the advantages of Bootstrap?</b>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                          <strong>Top 10 Advantages of Bootstrap for Web Development -</strong><br>
+                          <b>1.</b> Easy initiation<br>
+                          <b>2.</b> Responsiveness<br>
+                          <b>3.</b> Highly customizable <br>
+                          <b>4.</b> Extremely user-centric <br>
+                          <b>5.</b> Top-notch support <br>
+                          <b>6.</b> Cross-browser compatibility <br>
+                          <b>7.</b> JavaScript plugins to your rescue <br>
+                          <b>8.</b> Far-reaching popularity <br>
+                          <b>9.</b> Ample documentation<br>
+                          <b>10.</b> Updates at the doorstep<br>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-4">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <b>What is CSS Boxmodel?</b>
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            In CSS, the term "box model" is used when talking about design and layout. <br>
+
+                            The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. <br>
+                            Explanation of the different parts: <br>
+                            
+                            <b>Content</b> - The content of the box, where text and images appear <br>
+                            <b>Padding</b> - Clears an area around the content. The padding is transparent <br>
+                            <b>Border</b> - A border that goes around the padding and content <br>
+                            <b>Margin</b> - Clears an area outside the border. The margin is transparent <br>
+                            The box model allows us to add a border around elements, and to define space between elements. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-4">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <b>What is a Bootstrap Container and how does it work?</b>
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container. <br>
+                            Bootstrap comes with three different containers: <br>
+                            <b>=></b> <code>.container</code> which sets a <b>max-width</b> at each responsive breakpoint <br>
+                            <b>=></b> <code>.container-fluid</code> which is <b>width: 100%</b> at all breakpoints <br>
+                            <b>=></b> <code>.container-{breakpoint}</code> which is <b>width: 100%</b> until the specified breakpoint
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- Companies part start -->
+        <section>
+            <div class="container d-none d-lg-block text-center mb-5 pb-5">
+                <div class="container-head mt-5 pt-5 pb-4">
+                    <h2><b>Trusted by over 100+ companies</b></h2>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="images/companies/bacco.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/companies/bcc.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/companies/bitm.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/companies/ecab.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/companies/emporia.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/companies/muktopath.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer class="text-center bg-black p-5">
+        <div class="footer-head  text-white mt-5 pb-2">
+            <h3>Skill Dev</h3>
+        </div>
+        <div class="footer-body text-white-50">
+            <p>E-14/EX, ICT Tower, Agargaon, Dhaka<br>Bangladesh <br>
+            </p>
+            <p>Privacy Policy | Terms of use</p>
+        </div>
+        <div class="icon mb-5">
+            <img src="images/icons/facebook.png" class="pe-3" alt="">
+            <img src="images/icons/twitter.png" class="pe-3" alt="">
+            <img src="images/icons/link.jpg" class="pe-3" alt="">
+            <img src="images/icons/insta.png" alt="">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
